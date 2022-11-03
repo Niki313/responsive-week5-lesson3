@@ -1,0 +1,66 @@
+:root{
+    --first-font: "Playfair Display", serif;
+    --second-font: "Poppins", sans-serif;
+    --first-color: black;
+    --second-color:#6c757d;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    text-align: left;
+    margin: 192px 0 50px 0;
+    padding-left: 38px;
+
+}
+.photo-works{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.header h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: var(--first-color);
+    font-family: var(--first-font);
+    
+}
+.row{
+    margin: 0 auto;
+}
+
+h4, p{
+text-align: center;
+
+}
+.row h4{
+    font-size: 24px;
+    line-height: 0.5;
+    font-weight: bold;
+    color: var(--first-color);
+    font-family: var(--second-font);
+    margin-bottom:12px;
+}
+
+.block-image{
+    border-radius: 4px;
+}
+
+.row p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: var(--second-color);
+    font-family: var(--second-font);
+}
+.text{
+    margin-top: 30px;
+}
+.finish-row{
+    margin-bottom: 200px;
+}
